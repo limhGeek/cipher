@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_edit_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center|bottom"
+        android:text="设置密钥"
+        android:textColor="@color/colorText1"
+        android:textSize="@dimen/font_18"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="@drawable/shape_dialog_edit_bg"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_dialog_input1"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/tran"
+            android:gravity="center"
+            android:hint="输入密钥"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <View
+            android:id="@+id/edit_div2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorLine1" />
+
+        <EditText
+            android:id="@+id/edit_dialog_input2"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/tran"
+            android:gravity="center"
+            android:hint="确认密钥"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <View
+            android:id="@+id/edit_div3"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorLine1" />
+
+        <EditText
+            android:id="@+id/edit_dialog_input3"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:background="@color/tran"
+            android:gravity="center"
+            android:hint="确认密钥"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLine1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/font_18" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorLine1" />
+
+        <TextView
+            android:id="@+id/txt_dialog_yes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/colorMain"
+            android:textSize="@dimen/font_18" />
+    </LinearLayout>
+</LinearLayout>

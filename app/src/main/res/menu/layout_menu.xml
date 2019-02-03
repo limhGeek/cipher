@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="分类">
+        <menu>
+            <item
+                android:id="@+id/item_0"
+                android:icon="@drawable/ic_total"
+                android:title="全部" />
+            <item
+                android:id="@+id/item_1"
+                android:icon="@drawable/ic_work"
+                android:title="工作" />
+            <item
+                android:id="@+id/item_2"
+                android:icon="@drawable/ic_lock"
+                android:title="生活" />
+        </menu>
+    </item>
+    <item android:title="更多">
+        <menu>
+            <item
+                android:id="@+id/item_3"
+                android:icon="@drawable/ic_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/item_4"
+                android:icon="@drawable/ic_settings"
+                android:title="设置" />
+            <item
+                android:id="@+id/item_5"
+                android:icon="@drawable/ic_help"
+                android:title="使用" />
+        </menu>
+    </item>
+
+</menu>
